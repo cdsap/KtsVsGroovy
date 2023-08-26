@@ -1,0 +1,38 @@
+       plugins {
+          id ("java-library")
+          id ("maven-publish")
+          id ("jacoco")
+          id ("org.sonarqube") version "4.3.0.3225"
+          id("awesome.kotlin.plugin")
+       }
+          dependencies {
+             
+implementation(project(":layer_0:module_0_59"))
+implementation(project(":layer_0:module_0_21"))
+implementation(project(":layer_0:module_0_11"))
+implementation(project(":layer_0:module_0_51"))
+implementation(project(":layer_0:module_0_75"))
+implementation(project(":layer_0:module_0_94"))
+implementation(project(":layer_0:module_0_91"))
+implementation(project(":layer_0:module_0_14"))
+implementation(project(":layer_0:module_0_76"))
+implementation(project(":layer_0:module_0_56"))
+implementation(project(":layer_0:module_0_95"))
+implementation(project(":layer_0:module_0_38"))
+implementation(project(":layer_0:module_0_62"))
+implementation(project(":layer_0:module_0_15"))
+implementation(project(":layer_0:module_0_92"))
+implementation(project(":layer_0:module_0_83"))
+implementation(project(":layer_0:module_0_3"))
+implementation(project(":layer_0:module_0_6"))
+implementation(project(":layer_0:module_0_93"))
+implementation(project(":layer_0:module_0_43"))
+implementation(project(":layer_0:module_0_31"))
+implementation(project(":layer_0:module_0_82"))
+implementation(project(":layer_0:module_0_22"))
+implementation(project(":layer_0:module_0_30"))
+implementation(project(":layer_0:module_0_4"))
+implementation(project(":layer_0:module_0_80"))
+implementation(project(":layer_0:module_0_64"))
+implementation(project(":layer_0:module_0_86"))
+          }

@@ -1,0 +1,38 @@
+       plugins {
+          id ("java-library")
+          id ("maven-publish")
+          id ("jacoco")
+          id ("org.sonarqube") version "4.3.0.3225"
+          id("awesome.kotlin.plugin")
+       }
+          dependencies {
+             
+implementation(project(":layer_3:module_3_306"))
+implementation(project(":layer_3:module_3_366"))
+implementation(project(":layer_3:module_3_275"))
+implementation(project(":layer_3:module_3_334"))
+implementation(project(":layer_3:module_3_355"))
+implementation(project(":layer_3:module_3_326"))
+implementation(project(":layer_3:module_3_400"))
+implementation(project(":layer_3:module_3_335"))
+implementation(project(":layer_3:module_3_293"))
+implementation(project(":layer_3:module_3_402"))
+implementation(project(":layer_3:module_3_272"))
+implementation(project(":layer_3:module_3_341"))
+implementation(project(":layer_3:module_3_345"))
+implementation(project(":layer_3:module_3_273"))
+implementation(project(":layer_3:module_3_298"))
+implementation(project(":layer_3:module_3_357"))
+implementation(project(":layer_3:module_3_379"))
+implementation(project(":layer_3:module_3_337"))
+implementation(project(":layer_3:module_3_361"))
+implementation(project(":layer_3:module_3_382"))
+implementation(project(":layer_3:module_3_333"))
+implementation(project(":layer_3:module_3_381"))
+implementation(project(":layer_3:module_3_404"))
+implementation(project(":layer_3:module_3_260"))
+implementation(project(":layer_3:module_3_294"))
+implementation(project(":layer_3:module_3_282"))
+implementation(project(":layer_3:module_3_300"))
+implementation(project(":layer_3:module_3_283"))
+          }
