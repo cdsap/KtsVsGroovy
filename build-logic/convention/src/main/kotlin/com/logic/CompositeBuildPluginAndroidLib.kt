@@ -13,11 +13,12 @@
                         with(pluginManager) {
                             apply("com.android.library")
                             apply("org.jetbrains.kotlin.android")
+                            apply("kotlin-kapt")
                         }
 
 
                      extensions.configure<com.android.build.gradle.LibraryExtension>  {
-                        namespace = "com.example.mylibrary"
+                        namespace = "com.example.mylibrary18040"
                         compileSdk = 33
 
                         defaultConfig {
