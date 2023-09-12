@@ -6,3 +6,9 @@ class Module_0_81_22 {
      
      }
 }
+class Module_0_81_22_aux {
+   fun alor() {
+     println("module_0_81")
+
+     }
+}

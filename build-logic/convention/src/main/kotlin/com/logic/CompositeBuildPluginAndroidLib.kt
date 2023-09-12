@@ -18,7 +18,7 @@
 
 
                      extensions.configure<com.android.build.gradle.LibraryExtension>  {
-                        namespace = "com.example.mylibrary18040"
+                        namespace = "com.example.mylibrary4583"
                         compileSdk = 33
 
                         defaultConfig {
